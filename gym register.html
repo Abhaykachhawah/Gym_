@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_register.css">
+
+    <script src="register.js"></script>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url(background.svg.svg);
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="brand">
+            <img src="download.png" alt="no_image" width="35px" height="35px">
+            <h3>STREET FITNESS</h3>
+        </div>
+        <div class="links">
+            <ul class="nav-links">
+                <li class="nav-link"><a href="home gym.html">Home</a></li>
+                <li class="nav-link"><a href="gym register.html">Contacts</a></li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+    <form action="test2.php" method="POST">
+       
+
+        <div class="register">
+            <div class="left">
+                <p>ENTER YOUR NAME</p>
+            </div>
+            <div class="right">
+                <input type="text" name="Name" id="Name" placeholder="enter your name">
+            </div>
+        </div>
+        <div class="register">
+            <div class="left">
+                <p>EMAIL</p>
+            </div>
+            <div class="right">
+                <input type="email" name="Email" id="Email" placeholder=" enter your email id">
+            </div>
+        </div>
+        <div class="register">
+            <div class="left">
+                <p> AGE</p>
+            </div>
+            <div class="right">
+                <input type="number" name="Age" id="Age" placeholder="enter your age">
+
+            </div>
+        </div>
+        <div class="register">
+            <div class="left">
+                <p> PHONE NO</p>
+            </div>
+            <div class="right">
+                <input type="number" name="Phone" id="Phone" placeholder="enter your phone number">
+            </div>
+        </div>
+        <!-- <div class="register">
+            <div class="left">
+                <p> GENDER</p>
+            </div>
+            <div class="right">
+
+                <select name="gender" id="gender">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    
+                                </select>
+                <div class="register">
+                    <div class="left1">
+                        <p>SUBSCRIBE</p>
+                    </div>
+                    <div class="right1">
+                        <select name="price" id="price">
+                            <option value="">3 Months</option>
+                            <option value="">6 Months</option>
+                            <option value="">12 Months</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="register">
+            <div class="left">
+                <p> LOCALITY</p>
+            </div>
+            <div class="right">
+                <input type="text" name="Locality" id="Locality" placeholder="enter your locality">
+            </div>
+
+        </div>
+
+
+        <div id="container1">
+            <button class="btn1" value="save" onclick="message()">Submit</button>
+        </div>
+        <div id="container2">
+            <button class="btn2" value="Reset" onclick="message2()">Reset</button>
+        </div>
+
+        </div>
+    </form>
+
+
+
+    </section>
+</body>
+
+</html>
